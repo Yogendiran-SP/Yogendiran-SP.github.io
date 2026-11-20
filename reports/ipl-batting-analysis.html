@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A project report on exploratory analysis of IPL batting statistics by Yogendiran SP.">
+  <title>IPL Batting Statistics Analysis · Yogendiran SP</title>
+  <link rel="stylesheet" href="../style.css">
+  <script src="../app.js" defer></script>
+</head>
+<body>
+<div class="page-spectrum" aria-hidden="true"></div>
+  <a class="skip" href="#main">Skip to content</a>
+  <header>
+    <div class="bar">
+      <a class="brand" href="../index.html#experience">YS<span>Back to portfolio</span></a>
+      <button id="theme" class="pill" type="button" hidden>Dark mode</button>
+    </div>
+  </header>
+  <main id="main" class="report">
+    <section class="report-title" aria-labelledby="title">
+      <p class="meta">Data Science Internship · June 2026</p>
+      <h1 id="title">IPL Batting Statistics Analysis</h1>
+      <p class="report-summary">Explored player batting records and used six visualizations to examine how runs, strike rate and boundary hitting varied across players.</p>
+    </section>
+
+    <section aria-labelledby="method">
+      <h2 id="method">Data and method</h2>
+      <p>The batting dataset included player, matches, runs, average, strike rate, centuries, half-centuries, fours, sixes and highest score. I used pandas to inspect, clean and summarize the CSV, then explored sorted results, groupings and correlations.</p>
+      <p>I used Matplotlib and Seaborn for visualization and built an introductory linear regression model with scikit-learn to demonstrate how supervised learning could be applied to the dataset.</p>
+    </section>
+
+    <section aria-labelledby="charts">
+      <h2 id="charts">Visualizations</h2>
+      <ul class="report-charts">
+        <li>Total runs by player</li>
+        <li>Runs scored by the top 10 players</li>
+        <li>Sixes hit by player</li>
+        <li>Strike rate compared with runs</li>
+        <li>Distribution of runs across players</li>
+        <li>Run analysis heatmap</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="result">
+      <h2 id="result">Outcome</h2>
+      <p>The charts let me examine both individual totals and broader patterns in the batting data. The regression model was an introductory demonstration. The original project slides did not record a final error score.</p>
+      <p><a href="https://www.kaggle.com/code/iamsouravbanerjee/ipl-where-talent-meets-opportunity">Dataset reference on Kaggle</a></p>
+    </section>
+  </main>
+</body>
+</html>
